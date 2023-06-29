@@ -32,7 +32,7 @@ terraform apply --auto-approve <br/>
 terraform workspace select test <br/>
 tearraform destory --auto-approve <br/>
 
-terraform workspace select test <br/>
+terraform workspace select default <br/>
 tearraform destory --auto-approve  <br/>
 
 terraform workspace delete test  <br/>
