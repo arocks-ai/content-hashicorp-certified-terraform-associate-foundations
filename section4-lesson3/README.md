@@ -13,10 +13,10 @@ NOTE - ${terraform.workspace} variable to set their Names/IDs.
 
 ## Deployment
 ### Initial setup
-Download the code into local system			 <br/>
-terraform init         <br/>
-terraform workspace new test  <br/>
-terraform workspace list   <br/>
+Download the code into local system	<br/>
+terraform init         			<br/>
+terraform workspace new test  		<br/>
+terraform workspace list   		<br/>
 
 ### Deploy in default workspace
 terraform workspace select default  <br/>
