@@ -13,6 +13,7 @@ NOTE - ${terraform.workspace} variable to set their Names/IDs.
 
 ## Deployment
 ### Initial setup
+Configure AWS setup 			<br/>
 Download the code into local system	<br/>
 terraform init         			<br/>
 terraform workspace new test  		<br/>
