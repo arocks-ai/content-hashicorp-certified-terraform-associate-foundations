@@ -13,26 +13,32 @@ NOTE - ${terraform.workspace} variable to set their Names/IDs.
 
 ## Deployment
 ### Initial setup
-Configure AWS setup 			<br/>
-Download the code into local system	<br/>
-terraform init         			<br/>
-terraform workspace new test  		<br/>
-terraform workspace list   		<br/>
+Configure AWS setup 			\
+Download the code into local system	
+```
+terraform init         			
+terraform workspace new test  		
+terraform workspace list   		
+```
 
 ### Deploy in default workspace
-terraform workspace select default  <br/>
-terraform apply --auto-approve  <br/>
-tearraform destory --auto-approve<br/>
+```
+terraform workspace select default
+terraform apply --auto-approve 
+```
 
 ### Deploy in test workspace
-terraform workspace select test <br/>
-terraform apply --auto-approve <br/>
-
+```
+terraform workspace select test 
+terraform apply --auto-approve
+```
 ### Cleanup
-terraform workspace select test <br/>
-tearraform destory --auto-approve <br/>
+```
+terraform workspace select test
+tearraform destory --auto-approve 
 
-terraform workspace select default <br/>
-tearraform destory --auto-approve  <br/>
+terraform workspace select default
+tearraform destory --auto-approve 
 
-terraform workspace delete test  <br/>
+terraform workspace delete test  
+```
