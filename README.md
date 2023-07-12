@@ -3,5 +3,5 @@ Hashicorp Certified Terraform Associate: Foundations
 
 
 ### Section4-lesson3 - Workspace 
-[This](./section4-lesson3) section is about configure and deploy from workspace.
+[Workspace](./section4-lesson3) section is about configure and deploy from workspace.
 
